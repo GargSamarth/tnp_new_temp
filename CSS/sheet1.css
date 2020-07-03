@@ -1,0 +1,126 @@
+
+#btn-font-custom{
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Squada One', cursive; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 10;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block}
+
+.footer-txt-custom{
+   text-transform: uppercase;
+   font-family: Helvetica;
+   line-height: 1.0;
+   font-weight: 300;
+   color: #c7c4bf;
+}
+
+.custom-ul{
+  list-style-type:none;
+  line-height: 2.3;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: clip;
+  border-left: 0.4px solid #b8b5ae;
+}
+
+.custom-ul a{
+  color: #b3b0ab;
+  font-weight: 100;
+}
+
+.custom-add p{
+  color: #b3b0ab;
+  font-weight: 100;
+  text-align: right;
+}
+
+.custom-txt-link{
+    color: #b3b0ab;
+}
+
+.btn-custom{
+  color:white;
+  font-family: 'Squada One', cursive;
+  letter-spacing: 1.4px;
+  word-spacing: 4px;
+  font-weight: 150;
+
+}
+
+.custom-animation{
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+a.custom-hover:hover{
+  color: gray;
+}
+
+.custom-btn-register{
+  letter-spacing: 2.3;
+  border-radius: 12px;
+  background-color: #00001c;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custum-btn-nav{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.custum-btn-nav:hover {
+    border-bottom: 2px solid yellow;
+}
+
+.custom-bg{
+  background-color: #00001c;
+}
+
+/* new */
+
+.back-to-top {
+    position: fixed;
+    z-index: 99;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.custom-card-text{
+  font-size: 25px;
+  font-family: sans-serif;
+}
